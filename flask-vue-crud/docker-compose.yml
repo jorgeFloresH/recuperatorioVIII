@@ -10,3 +10,9 @@ services:
       - 5000:5000
     env_file:
       - ./.env.dev
+  vuejs:
+    container_name: vuejs
+    hostname: vuejs
+    build: ./client
+    ports:
+      - "8080:8080"

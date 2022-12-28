@@ -1,0 +1,2 @@
+VUE_APP_MODE=desarrollo
+VUE_APP_RUTA_API=http://192.168.104.225:8080
